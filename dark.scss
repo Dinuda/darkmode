@@ -1,0 +1,17 @@
+$dark_clr: #24292e;
+$light_dark_clr: #32383f;
+$txt_clr: #d6d8da;
+$link_clr: #e39777;
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: $dark_clr;
+    color: $txt_clr;
+  }
+  a {
+    color: $link_clr !important;
+  }
+  footer {
+    background: $light_dark_clr;
+  }
+}
