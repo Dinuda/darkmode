@@ -1,0 +1,22 @@
+* {
+    --color-shadow: #3c3c41;
+}
+
+@media(prefers-color-scheme: dark) {
+    body {
+        background: #2a2a2e;
+        color: white;
+    }
+}
+body {
+    transition: 0.5s;
+    height: 100vh;
+}
+body:hover {
+    background: #2a2a2e;
+    color: white;
+}
+
+.how {
+    width: calc(var(--width-card) * 2);
+}
